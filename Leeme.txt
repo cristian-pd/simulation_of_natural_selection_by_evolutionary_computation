@@ -1,0 +1,17 @@
+Estructura:
+- NaturalSelection        (Proyecto Unity, debe ser cargado con Unity)
+  - Assets                (Scripts y recursos empleados para la realización del proyecto)
+  - ...
+- Datos                   (Datos de los experimentos de la memoria)
+  - ForcingSpeedPacific1  (Experimento 1)
+    - results
+      - *.csv             (Cada archivo se llama como un parámetro de la representación del algoritmo genético, en su interior se encuentra el valor de dicho parámetro para todos los individuos de cada generación)
+    - summary
+      - fitness_mean.csv  (Medias del fitness de cada generación, {best, top1, top3, top5, top10, population})
+      - gen_rep_mean.csv  (Medias de cada parámetro de la representación del algoritmo genético en cada generación)
+  - ForceAgresivity       (Experimento 2)
+    - ...
+  - Equilibrated          (Experimento 3)
+    - ...
+  - ForcingSpeedPacific2  (Experimento 1 con semilla 5.345.435)
+    - ...
