@@ -1,0 +1,17 @@
+Structure:
+- NaturalSelection        (Unity project, must be opened with Unity)
+  - Assets                (Scripts and resources used to build the project)
+  - ...
+- Data                    (Experimental data from the thesis)
+  - ForcingSpeedPacific1  (Experiment 1)
+    - results
+      - *.csv             (Each file reveives the name of a parameter of the genetic algorithm’s representation/genotype. Inside, it contains the value of that parameter for all individuals in each generation)
+    - summary
+      - fitness_mean.csv  (Mean fitness values for each generation: {best, top1, top3, top5, top10, population})
+      - gen_rep_mean.csv  (Mean values of each parameter of the genetic algorithm representation/genotype for each generation)
+  - ForceAgresivity       (Experiment 2)
+    - ...
+  - Equilibrated          (Experiment 3)
+    - ...
+  - ForcingSpeedPacific2  (Experiment 1 with seed 5,345,435)
+    - ...
