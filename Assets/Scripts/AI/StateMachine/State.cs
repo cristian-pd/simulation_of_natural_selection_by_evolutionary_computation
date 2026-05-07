@@ -1,4 +1,4 @@
-// Copyright Cristian Pagán Díaz. All Rights Reserved.
+// Copyright (c) 2023 Cristian Pagán Díaz. All Rights Reserved.
 
 public abstract class State
 {
